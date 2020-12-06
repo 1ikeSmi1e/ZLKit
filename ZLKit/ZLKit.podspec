@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ZLKit"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "my ZLKit."
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  # spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ZLKit", "ZLKit/BaseTool/*.{h,m}"
-  spec.exclude_files = "ZLKit/Exclude"
+  spec.source_files  = "ZLKit/ZLKit/BaseTool/*.{h,m}"
+  spec.exclude_files = "ZLKit/ZLKit/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
