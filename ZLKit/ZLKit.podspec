@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint SLKit.podspec' to ensure this is a
+#  Be sure to run `pod spec lint ZLKit.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SLKit"
-  spec.version      = "0.0.1"
-  spec.summary      = "My SLKit."
+  spec.name         = "ZLKit"
+  spec.version      = "0.0.2"
+  spec.summary      = "my ZLKit."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  My first private pod projet
+  my ZLKitmy ZLKit my ZLKitmy ZLKit
                    DESC
 
   spec.homepage     = "https://github.com/1ikeSmi1e/ZLKit"
@@ -64,8 +64,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-    spec.platform     = :ios
-    spec.platform     = :ios, "10.0"
+  spec.platform     = :ios
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/1ikeSmi1e/SLKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/1ikeSmi1e/ZLKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "ZLKit", "ZLKit/BaseTool/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "ZLKit/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
